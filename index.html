@@ -14,21 +14,37 @@
             document.body.style.backgroundImage = `url(${backgrounds[currentIndex]})`;
         }
     </script>
-    <button onclick="changeBackground()" style="position:fixed; bottom: 10px; right: 10px; font-size: 12px; padding: 5px 10px; background: rgba(255,255,255,0.5);border: none; border-radius:5px; cursor:pointer;">下一张背景</button>
     <style>
         body {
             display:flex
             justify-content:center;
             aligent-items:center;
-            height:100vh
-            margin:0
+            height:100vh;
+            margin:0;
             background-image:url('background.3.jpg');
             background-size:cover;
-            background-position:center
+            background-position:center;
             background-attachment:fixed;
         }
         .text-box {
             text-align:center;
+            line-height:15;
+        }
+        .signature {
+            font-family: 'Old English Text MT',serif;
+            font-size:10px;
+            color:#a1a1a1;
+            margin-top:10px;
+        }
+        button {
+            position:fixed;
+            bottom: 10px;
+            right: 10px; 
+            font-size: 12px; 
+            padding: 5px 10px; 
+            background: rgba(255,255,255,0.5);
+            border: none; 
+            border-radius:5px;
         }
     </style>
 </head>
