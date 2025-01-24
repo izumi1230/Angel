@@ -16,36 +16,34 @@
     </script>
     <style>
         body {
-            display:flex
-            justify-content:center;
-            aligent-items:center;
-            height:100vh;
-            margin:0;
-            background-image:url('background.3.jpg');
+            display: flex;
+            justify-content: center;
+            aligent-items: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url('background.3.jpg');
             background-size: cover;
             background-position: center;
-            background-attachment:fixed;
+            background-attachment: fixed;
         }
         .text-box {
             text-align:center;
             line-height:1.5;
         }
-        .text-box p{
-            margin:0;
-        }
         .text-box .chinese{
             font-size: 1.5em;
             color: #D9B1BD;
         }
-         .text-box.japanese {
+         .text-box .japanese {
              font-size:1em;
-             color:#a1a1a1;
-             margin-top:5px;
+             color: #a1a1a1;
+             margin-top: 5px;
         .signature {
             font-family: 'Old English Text MT',serif;
-            font-size:10px;
+            font-size:1em;
             color:#a1a1a1;
             margin-top:20px;
+            text-align: center;
         }
         button {
             position:fixed;
@@ -60,10 +58,9 @@
     </style>
 </head>
 <body>
-    <div class="container">
     <div class="text-box">
-        <p style="chinese">我的灵魂将进入冬眠，尽头是你回来那天。</p>
-        <p style="japanese">夢の終わりは、あなたが戻るその日。</p>
+        <p class="chinese">我的灵魂将进入冬眠，尽头是你回来那天。</p>
+        <p class="japanese">夢の終わりは、あなたが戻るその日。</p>
     </div>
         <div class="signature">by 浅见湛 & 泉
     </div>
